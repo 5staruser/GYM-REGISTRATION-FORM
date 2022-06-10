@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body::before{
+    content: "";
+    height: 799px;
+    width: 100%;
+    top: 0;
+    background: url("https://trumpwallpapers.com/wp-content/uploads/Workout-Wallpaper-03-1920-x-1080.jpg") no-repeat center center;
+    opacity: 0.5;
+    z-index: -1;
+}
+nav{
+    background-color: black;
+    padding: 11px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    padding: 2px 11px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+.container{
+    margin: 34px 0px;
+}
+input,textarea{
+    display: block;
+    padding: 2px;
+    margin: 14px auto;
+    width: 60%;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.btn{
+    margin: 3px auto;
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 4px 11px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 8px;
+    outline: none;
+}
